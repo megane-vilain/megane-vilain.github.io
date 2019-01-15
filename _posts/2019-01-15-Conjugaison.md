@@ -3,7 +3,7 @@
 ### **Essere**
 
 ||Présent  | Passé |
-|--|--| --|
+|---|---| ---|
 |Io | s**ono** |
 |Tu | s**ei**
 |Lui/ Lui | **è**
@@ -14,7 +14,7 @@
 ### **Avere**
 
 ||Présent  | Passé |
-|--|--| -- |
+|---|---| --- |
 |Io | h**o** | ebbi |
 |Tu | h**ai** | avesti |
 |Lei / Lui | h**a** | ebbe |
@@ -25,7 +25,7 @@
 ### **Bere**
 
 ||Présent  | Passé |
-|--|--| -- |
+|---|---| --- |
 | Io | bev**o**  | bev**vi** |
 | Tu | bev**i**   | bev**esti** |
 | Lei/ Lui | bev**e** | bevv**e** |
