@@ -2,10 +2,9 @@
 
 ### **Essere**
 
-
-||Présent  | Passé | 
-|--|--| -- |
-|Io | s**ono** | 
+||Présent  | Passé |
+|--|--| --|
+|Io | s**ono** |
 |Tu | s**ei**
 |Lui/ Lui | **è**
 |Noi | si**amo**
@@ -13,23 +12,23 @@
 |Loro | s**ono**
 
 ### **Avere**
-||Présent  | Passé | 
+
+||Présent  | Passé |
 |--|--| -- |
-|Io | h**o** | ebbi
-|Tu | h**ai** | avesti
-|Lei / Lui | h**a** | ebbe
-|Noi | **abbiamo** | avemmo
-|Voi| **avete** | aveste
-|Loro | h**anno** | ebbero
+|Io | h**o** | ebbi |
+|Tu | h**ai** | avesti |
+|Lei / Lui | h**a** | ebbe |
+|Noi | **abbiamo** | avemmo |
+|Voi| **avete** | aveste |
+|Loro | h**anno** | ebbero |
 
 ### **Bere**
-||Présent  | Passé 				
-|--|--| -- |											
-| Io | bev**o**  | bev**vi**
-| Tu | bev**i**   | bev**esti**
-| Lei/ Lui | bev**e** | bevv**e**
-|Noi | bev**iamo** | bev**emmo**
-| voi |bev**ete** | bev**esti**
-|Loro | bev**ono** | bevv**ero**
 
-
+||Présent  | Passé |
+|--|--| -- |
+| Io | bev**o**  | bev**vi** |
+| Tu | bev**i**   | bev**esti** |
+| Lei/ Lui | bev**e** | bevv**e** |
+|Noi | bev**iamo** | bev**emmo** |
+| voi |bev**ete** | bev**esti** |
+|Loro | bev**ono** | bevv**ero** |
