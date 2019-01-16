@@ -1,6 +1,6 @@
 ---
 layout: post
-title:Vocabulary
+title : Vocabulary
 author: Mégane Vilain
 category: Italian
 ---
