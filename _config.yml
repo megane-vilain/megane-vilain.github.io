@@ -30,7 +30,7 @@ header_pages:
 collections:
   category:
     output: true # générer la page HTML
-    permalink: /:collection/:name/index.html
+    permalink: /:name/index.html
     # exemple -> /category/informatique/index.html
 
 defaults:
