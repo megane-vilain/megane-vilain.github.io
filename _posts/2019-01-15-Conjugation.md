@@ -1,4 +1,9 @@
-
+---
+layout: post
+title : Conjugation
+author: Mégane Vilain
+category: Italian
+---
 ### **Essere**
 
 ||Présent  | Passé |
