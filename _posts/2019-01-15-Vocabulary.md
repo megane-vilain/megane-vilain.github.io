@@ -2,7 +2,7 @@
 layout: post
 title : Vocabulary
 author: Mégane Vilain
-category: Italian
+category: italian
 ---
 ![Cooking Picture](http://img.over-blog-kiwi.com/0/57/43/14/20140206/ob_9b7fd2_antipasti-jpg)
 

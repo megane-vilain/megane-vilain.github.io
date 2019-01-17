@@ -2,7 +2,7 @@
 layout: post
 title : Conjugation
 author: Mégane Vilain
-category: Italian
+category: italian
 ---
 ### **Essere**
 
