@@ -21,9 +21,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: BlackSkilly
 github_username:  megane-vilain
+include: ['_category']
 
 header_pages:
- - Italian.md
+ - italian.md
  - about.md
 
 # Liste des catégories
