@@ -1,5 +1,5 @@
 ---
-title: Italian
-category: italian
+title: Category Italian
+category: Italian
 description: Italian
 ---

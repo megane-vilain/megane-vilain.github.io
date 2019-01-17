@@ -31,7 +31,7 @@ collections:
   category:
     output: true # générer la page HTML
     permalink: /:name/index.html
-    # exemple -> /informatique/index.html
+    # exemple -> /category/informatique/index.html
 
 defaults:
   - scope:
