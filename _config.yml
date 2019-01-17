@@ -21,18 +21,15 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: BlackSkilly
 github_username:  megane-vilain
-include: ['_category']
+include: ['_pages']
 
-header_pages:
- - italian.md
- - about.md
 
 # Liste des catégories
 collections:
   category:
     output: true # générer la page HTML
     permalink: /:name/index.html
-    # exemple -> /category/informatique/index.html
+    # exemple -> /informatique/index.html
 
 defaults:
   - scope:
