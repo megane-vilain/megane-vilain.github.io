@@ -34,7 +34,7 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: category
+      type: posts
     values:
       layout: "category"
       # layout utilisé -> _layouts/category.html
