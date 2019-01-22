@@ -23,3 +23,13 @@ category: Italian
 |Una, La| **Bistecca** | Steak
 |Un, Il| **Latte** | Milk
 |Una, La| **Frutta** | Fruit
+|Una, La | **Zuppa** | Soup
+|Una, La | **Salsiccia** | Sausage
+
+
+![Ustensiles picture](https://image.darty.com/accessoires/gros_electromenager/ustensile_cuisine/schmit_kit18_s1611034274261A_122235526.jpg)
+
+|Pronoun|Italian|English|
+|---|---|---|---|
+|Un , Il | **Cucchiaio** | Spoon
+
