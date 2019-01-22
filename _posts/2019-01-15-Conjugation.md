@@ -8,7 +8,7 @@ category: Italian
 
 ||Présent  | Passé |
 |---|---| ---|
-|Io | s**ono** |
+|Io | s**ono** 
 |Tu | s**ei**
 |Lui/ Lui | **è**
 |Noi | si**amo**
@@ -38,21 +38,23 @@ category: Italian
 |Loro | bev**ono** | bevv**ero** |
 
 ### **Cenare**
+
 ||Présent  | Passé |
 |---|---| --- |
-|Io| cen**o**
-|Tu| cen**i**
-|Lei, Lui| cen**a**
-|Noi| cen**iamo**
-|Voi|cen**ate**
-|Loro|cen**amo**
+|Io| cen**o** |
+|Tu| cen**i**|
+|Lei, Lui| cen**a** |
+|Noi| cen**iamo**|
+|Voi|cen**ate**|
+|Loro|cen**amo**|
 
 ### **Pranzare**
+
 ||Présent  | Passé |
-|---|---| --- |
-|Io|pranz**o**
-|Tu|pranz**i**
-|Lei, Lui| pranz**a**
-|Noi| pranz**iamo**
-|Voi| pranz**ate**
-|Loro|pranz**ano**
+|---|---| --- | 
+|Io|pranz**o**|
+|Tu|pranz**i**|
+|Lei, Lui| pranz**a**|
+|Noi| pranz**iamo**|
+|Voi| pranz**ate**|
+|Loro|pranz**ano**|
