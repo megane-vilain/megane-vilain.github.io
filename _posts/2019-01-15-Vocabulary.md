@@ -25,6 +25,10 @@ category: Italian
 |Una, La| **Frutta** | Fruit
 |Una, La | **Zuppa** | Soup
 |Una, La | **Salsiccia** | Sausage
+|Una | **Cipolla**| Onion
+|Il| **Cibo** | Food
+|Un, Il | **Pomodoro** | Tomato
+|I | **Pomodori** | Tomatoes
 
 
 ![Ustensiles picture](https://image.darty.com/accessoires/gros_electromenager/ustensile_cuisine/schmit_kit18_s1611034274261A_122235526.jpg)
@@ -32,4 +36,10 @@ category: Italian
 |Pronoun|Italian|English|
 |---|---|---|---|
 |Un , Il | **Cucchiaio** | Spoon
+|Una, La | **Forchetta** | Fork
+|Le | **Forchette** | Forks
+|Un, Il | **Coltello** | Knife
+|I | **Coltelli** | Knives
+|Un, Il | **Cucchaio** | Spoon
+
 
