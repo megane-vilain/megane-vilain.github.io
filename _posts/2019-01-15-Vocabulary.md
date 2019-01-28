@@ -29,6 +29,7 @@ category: Italian
 |Il| **Cibo** | Food
 |Un, Il | **Pomodoro** | Tomato
 |I | **Pomodori** | Tomatoes
+|Un, Il | **Sale** | Salt
 
 
 ![Ustensiles picture](https://image.darty.com/accessoires/gros_electromenager/ustensile_cuisine/schmit_kit18_s1611034274261A_122235526.jpg)
