@@ -58,3 +58,14 @@ category: Italian
 |Noi| pranz**iamo**|
 |Voi| pranz**ate**|
 |Loro|pranz**ano**|
+
+### **Conoscere**
+
+||Présent | Passé
+|---|---|---|
+|Io| Conosco |
+|Tu| Conosci |
+| Lei, Lui| Conosce |
+|Noi | Conosciamo |
+|Voi | Conoscete |
+| Loro | Conoscono | 
