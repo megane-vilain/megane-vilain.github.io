@@ -69,3 +69,14 @@ category: Italian
 |Noi | Conosc**iamo**|
 |Voi | Conosc**ete** |
 | Loro | Conosc**ono** | 
+
+### **Comprare** - **Buy**
+
+||Présent|Passé|
+|---|---|---|
+|Io| Compr**o** |
+Tu| Compr**i** |
+|Lei,Lui| Compr**a**|
+|Noi| Compr**iamo**|
+|Voi| Compr**ate**|
+|Loro|Compr**ano**|
