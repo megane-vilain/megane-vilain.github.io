@@ -59,13 +59,13 @@ category: Italian
 |Voi| pranz**ate**|
 |Loro|pranz**ano**|
 
-### **Conoscere**
+### **Conoscere** - **Know**
 
 ||Présent | Passé
 |---|---|---|
-|Io| Conosco |
-|Tu| Conosci |
-| Lei, Lui| Conosce |
-|Noi | Conosciamo |
-|Voi | Conoscete |
-| Loro | Conoscono | 
+|Io| Conosc**o** |
+|Tu| Conosc**i** |
+| Lei, Lui| Conosc**e** |
+|Noi | Conosc**iamo**|
+|Voi | Conosc**ete** |
+| Loro | Conosc**ono** | 
