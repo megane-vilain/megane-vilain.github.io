@@ -1,8 +1,8 @@
 ---
-layout  post
-title   Primitive Data Types
-author  Mégane Vilain
-category  Java
+layout:  post
+title:   Primitive data types
+author:  Mégane Vilain
+category:  Java
 ---
 
 ## Whole Numbers
