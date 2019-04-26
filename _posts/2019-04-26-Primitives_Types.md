@@ -1,11 +1,11 @@
 ---
 layout:  post
-title:   Primitive data types
+title:   Types primitifs
 author:  Mégane Vilain
 category:  Java
 ---
 
-## Whole Numbers
+## Nombres entiers
 
 ### Integer
 
@@ -50,7 +50,7 @@ Il faut écrire un L à la fin de la valeur.
 |Minimum value | **-2^63**|
 |Maximum value | **2^63**|
 
-## Decimal Numbers
+## Nombres décimaux
 
 ### Float
 
@@ -77,7 +77,7 @@ Il est recommandé d'écrire un d à la fin de la valeur.
 |Minimum value | **-1,7^308**|
 |Maximum value | **1,7^308**|
 
-## Other Types
+## Autres types
 
 ### Char 
 
