@@ -1,6 +1,6 @@
 ---
 title:  React
-layout: page
+layout: category
 category: React
 description: React
 permalink: "/react/"

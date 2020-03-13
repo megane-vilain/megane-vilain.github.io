@@ -1,6 +1,6 @@
 ---
 title:  Git
-layout: page
+layout: category
 category: Git
 description: Git
 permalink: "/git/"

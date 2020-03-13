@@ -1,6 +1,6 @@
 ---
 title:  Italian
-layout: page
+layout: category
 category: Italian
 description: Italian
 permalink: "/italian/"

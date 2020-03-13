@@ -1,6 +1,6 @@
 ---
 title:  Linux
-layout: page
+layout: category
 category: Linux
 description: Linux
 permalink: "/linux/"
