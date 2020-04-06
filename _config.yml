@@ -26,7 +26,7 @@ include: ['_pages']
 
 # Liste des catégories
 collections:
-  pages:
+  category:
     output: true # générer la page HTML
     permalink: /:name/index.html
     # exemple -> /informatique/index.html
@@ -44,6 +44,10 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
+sass:
+  sass_dir: _sass
+  style: compressed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
