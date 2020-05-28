@@ -11,9 +11,9 @@ layout: default
 
   {%- if site.categories.size > 0 -%}
     {%- for category in site.categories -%}
-        <h2 class="post-list-heading">{{ category.title }}</h2>
-        {%- if site.categories[category.title].size > 0-%}
-            {% for post in site.categories[category.title] %}
+        <h2 class="post-list-heading">{{ category.name }}</h2>
+        {%- if site.categories[category.name].size > 0-%}
+            {% for post in site.categories[category.name] %}
                 <li>
                     <h3>
                         <a class="post-link" href="{{ post.url | relative_url }}">

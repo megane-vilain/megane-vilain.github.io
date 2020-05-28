@@ -27,6 +27,7 @@ include: ['_pages']
 # Liste des catégories
 collections:
   category:
+    name: :name
     output: true # générer la page HTML
     permalink: /:name/index.html
     # exemple -> /informatique/index.html
