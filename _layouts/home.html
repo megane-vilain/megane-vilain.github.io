@@ -19,10 +19,11 @@ layout: default
             {% for post in category[1] %}
             
               <a class="post-slug" href="{{ post.url | relative_url }}" >
+                <span class="dot"></span>
                 <span>
                   {{ post.title | escape }}
                 </span>
-                <span class="dot"></span>
+                
               </a>
             
             {%- endfor -%}

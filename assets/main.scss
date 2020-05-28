@@ -12,10 +12,11 @@
     h2 {
         margin-bottom: 0px;
         margin-top: 10px;
+        font-weight:bold;
     }
 }
 .post-list-heading {
-    font-size: 16px;
+    font-size: 20px;
     -webkit-font-smoothing: antialiased;
     background-repeat: no-repeat;
     box-sizing: inherit;
@@ -29,7 +30,7 @@
 }
 
 .post-slug {
-    font-size: 12px;
+    font-size: 14px;
     color: #345;
     font-family: cousine,sfmono-regular,Consolas,Menlo,liberation mono,ubuntu mono,Courier,monospace;
     flex: 0 0 50%;
