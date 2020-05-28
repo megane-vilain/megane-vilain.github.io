@@ -23,22 +23,6 @@ twitter_username: BlackSkilly
 github_username:  megane-vilain
 include: ['_pages']
 
-
-# Liste des catégories
-collections:
-  category:
-    output: true # générer la page HTML
-    permalink: /:name/index.html
-    # exemple -> /informatique/index.html
-
-defaults:
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: "category"
-      # layout utilisé -> _layouts/category.html
-
 # Build settings
 markdown: kramdown
 theme: minima
