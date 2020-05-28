@@ -11,21 +11,25 @@ layout: default
 
   {%- if site.categories.size > 0 -%}
     {%- for category in site.categories -%}
+      
         <h2 class="post-list-heading">{{ category[0] }}</h2>
+        <hr>
         {%- if category[1].size > 0-%}
-        <ul class="post-list">
+        <div class="category-posts">
             {% for post in category[1] %}
-                <li>
-                    <h3>
-                        <a class="post-link" href="{{ post.url | relative_url }}">
-                            {{ post.title | escape }}
-                        </a>
-                    </h3>
-                </li>
+            
+              <a class="post-slug" href="{{ post.url | relative_url }}" >
+                <span>
+                  {{ post.title | escape }}
+                </span>
+                <span class="dot"></span>
+              </a>
+            
             {%- endfor -%}
-        </ul>
+          </div>
+          
         {%- endif -%}
-        
+      
     {%- endfor -%}
   {%- endif -%}
 
