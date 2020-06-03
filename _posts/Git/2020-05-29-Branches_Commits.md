@@ -1,6 +1,6 @@
 ---
 layout: post
-title : Git commands
+title : Commits et branches
 author: Mégane Vilain
 category: Git
 ---
@@ -45,6 +45,7 @@ Modifier les fichiers du commit :
 |`git checkout "branch_name"`|Change de branche|
 |`git branch "branch_name"`|Crée une nouvelle branche à partir de la branche actuelle|
 |`git checkout -b "branch_name"`|Crée une nouvelle branche à partir de la branche actuelle et se positionne dessus|
+|`git push -u "remote_name" "branch_name"`|Crée la branche local sur la remote. Les noms de branche doivent être identiques|
 |`git checkout -b "branch_name" "remote_name"/"branch_name"`|Crée une nouvelle branche qui est une copie de la branche en amont et se place dessus|
 |`git branch -u "remote_name"/"branch_name"`|Traque une branche en amont - **Les noms de de branche en local et en amont doivent être identiques**|
 |`git branch -d "branch_name"`|Supprime la branche locale|
