@@ -2,6 +2,7 @@
 layout: post
 title : Commits et branches
 author: Mégane Vilain
+category: Git
 ---
 
 ### Commits
