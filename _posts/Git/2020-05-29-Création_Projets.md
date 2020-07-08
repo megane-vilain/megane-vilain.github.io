@@ -2,7 +2,6 @@
 layout: post
 title : Création de projet
 author: Mégane Vilain
-category: Git
 ---
 
 ### Création d'un projet
