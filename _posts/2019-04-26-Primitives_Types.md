@@ -45,10 +45,13 @@ Pour effectuer des opération sur un byte il faut caster l'opération.
 ```
 Il faut écrire un L à la fin de la valeur.
 ```
+
+
 |||
 |---|---|
 |Minimum value | **-2^63**|
-|Maximum value | **2^63**|
+|Maximum value |**2^63**|
+
 
 ## Nombres décimaux
 
