@@ -83,8 +83,4 @@ Récupère les modifications effectués en amont et tente de les fusioner avec l
 |Commande  | Description |
 |---|---|
 |`git pull "remote_name"`|Récupère et merge les modifications de la branche|
-
-### Git Merge
-
-
-**Merge Request**: Pour effectuer un merge sur la branche master il faut utiliser l'interface graphique de GITLAB 
+|`git pull "remote_name" --rebase`|Récupère et rebase les modifications de la branche|

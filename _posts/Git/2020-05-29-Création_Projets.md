@@ -12,7 +12,7 @@ category: Git
 |`git init`|Initialise un répertoire vide|
 |`git clone "project_url"`|Crée une version locale d'un projet déjà existant|
 
-### Lier le projet local au projet en ligne
+### Lier le projet local à la remote
 
 |Commande  | Description |
 |---|---|
