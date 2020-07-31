@@ -146,6 +146,26 @@ public class HelloTag extends SimpleTagSupport {
 
 ```
 
+### Taglib properties
+
+|Property|Description|Required|
+|---|---|---|
+|**tlibversion**|Tag version number|Yes|
+|**jspversion**|Jsp version number|No|
+|**shortname**|Tags prefix|Yes|
+|**uri**|Uri of the taglibrary used in jsp pages|No|
+|**info**|Tag description|No|
+
+### Tag properties
+
+|Property|Description|Required|
+|---|---|---|
+|**name**|The name of the tag|Yes
+|**tag-class**|Java class complete name (With pacakge)|Yes|
+|**body-content**|Type of content (empty, JSP, tagdependant)|No|
+|**info**|Description of the tag|No|
+
+
 ```
 <%@ taglib prefix = "ex" uri = "WEB-INF/custom.tld"%>
 
@@ -159,16 +179,16 @@ public class HelloTag extends SimpleTagSupport {
    </body>
 </html>
 ```
-### Tags properties
+### Attribute properties
 
-|Property|Description|
-|---|---|
-|*name*|The name element defines the name of an attribute. Each attribute name must be unique for a particular tag.|
-|*required*|This specifies if this attribute is required or is an optional one. It would be false for optional.|
-|*rtexprvalue*|Declares if a runtime expression value for a tag attribute is valid|
-|*type*|Defines the Java class-type of this attribute. By default it is assumed as String|
-|*description*|Informational description can be provided.|
-|*fragment*|Declares if this attribute value should be treated as a JspFragment.|
+|Property|Description|Required|
+|---|---|---|
+|*name*|The name element defines the name of an attribute. Each attribute name must be unique for a particular tag.|Yes|
+|*required*|This specifies if this attribute is required or is an optional one. It would be false for optional.|No|
+|*rtexprvalue*|Declares if a runtime expression value for a tag attribute is valid|No|
+|*type*|Defines the Java class-type of this attribute. By default it is assumed as String|No|
+|*description*|Informational description can be provided.|No|
+|*fragment*|Declares if this attribute value should be treated as a JspFragment.|No|
 
 ### Result
 
