@@ -24,6 +24,7 @@ public class HelloTag extends SimpleTagSupport {
 
 If you want to redistribute your tag files or implement your custom tags with tag handlers written in Java, you must declare the tags in a tag library descriptor (TLD). A tag library descriptor is an XML document that contains information about a library as a whole and about each tag contained in the library. TLDs are used by a web container to validate the tags and by JSP page development tools.
 
+**Tld**
 ```
 <taglib>
    <tlib-version>1.0</tlib-version>
@@ -48,6 +49,7 @@ You can include a message in the body of the tag as you have seen with standard 
 </ex:Hello>
 ```
 
+**Java class**
 ```
 public class HelloTag extends SimpleTagSupport {
    StringWriter sw = new StringWriter();
@@ -60,6 +62,7 @@ public class HelloTag extends SimpleTagSupport {
 }
 ```
 
+**Tld***
 ```
 <taglib>
    <tlib-version>1.0</tlib-version>
@@ -74,6 +77,7 @@ public class HelloTag extends SimpleTagSupport {
 </taglib>
 ```
 
+**JSP**
 ```
 <%@ taglib prefix = "ex" uri = "WEB-INF/custom.tld"%>
 
@@ -102,6 +106,7 @@ You can use various attributes along with your custom tags. To accept an attribu
 
 ### Example
 
+**Java class**
 ```
 public class HelloTag extends SimpleTagSupport {
    private String message;
@@ -126,6 +131,7 @@ public class HelloTag extends SimpleTagSupport {
 }
 ```
 
+**Tld**
 ```
 <taglib>
    <tlib-version>1.0</tlib-version>
@@ -165,7 +171,19 @@ public class HelloTag extends SimpleTagSupport {
 |**body-content**|Type of content (empty, JSP, tagdependant)|No|
 |**info**|Description of the tag|No|
 
+### Attribute properties
 
+|Property|Description|Required|
+|---|---|---|
+|*name*|The name element defines the name of an attribute. Each attribute name must be unique for a particular tag.|Yes|
+|*required*|This specifies if this attribute is required or is an optional one. It would be false for optional.|No|
+|*rtexprvalue*|Declares if a runtime expression value for a tag attribute is valid|No|
+|*type*|Defines the Java class-type of this attribute. By default it is assumed as String|No|
+|*description*|Informational description can be provided.|No|
+|*fragment*|Declares if this attribute value should be treated as a JspFragment.|No|
+
+
+**JSP**
 ```
 <%@ taglib prefix = "ex" uri = "WEB-INF/custom.tld"%>
 
@@ -179,16 +197,7 @@ public class HelloTag extends SimpleTagSupport {
    </body>
 </html>
 ```
-### Attribute properties
 
-|Property|Description|Required|
-|---|---|---|
-|*name*|The name element defines the name of an attribute. Each attribute name must be unique for a particular tag.|Yes|
-|*required*|This specifies if this attribute is required or is an optional one. It would be false for optional.|No|
-|*rtexprvalue*|Declares if a runtime expression value for a tag attribute is valid|No|
-|*type*|Defines the Java class-type of this attribute. By default it is assumed as String|No|
-|*description*|Informational description can be provided.|No|
-|*fragment*|Declares if this attribute value should be treated as a JspFragment.|No|
 
 ### Result
 
