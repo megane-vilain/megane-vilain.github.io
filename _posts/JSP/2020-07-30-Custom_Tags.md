@@ -161,9 +161,8 @@ public class HelloTag extends SimpleTagSupport {
 ```
 ### Tags properties
 
-|||
-|---|---|
 |Property|Description|
+|---|---|
 |*name*|The name element defines the name of an attribute. Each attribute name must be unique for a particular tag.|
 |*required*|This specifies if this attribute is required or is an optional one. It would be false for optional.|
 |*rtexprvalue*|Declares if a runtime expression value for a tag attribute is valid|

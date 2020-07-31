@@ -94,9 +94,8 @@ With the include directive you can insert the content of another file into the t
 The so-called built-ins are like methods  that aren't coming from the data-model, but added by FreeMarker to the values. In order to make it clear where subvariables comes from, you have to use **?**  instead of **.**  to access them. 
 
 
-|||
-|---|---|
 |Function|Description|
+|---|---|
 |**upper_case**|Returns the upper case version of the value of the variable|
 |**cap_first**|Returns the variable with its first letter converted to upper case|
 |**length**|Returns the number of characters in the variable |
@@ -107,9 +106,8 @@ The so-called built-ins are like methods  that aren't coming from the data-model
 
 #### Between list tag
 
-|||
-|---|---|
 |Function|Description|
+|---|---|
 |**index**|Returns the 0-based index of the item|
 |**counter**|Returns the 1-based index of the item|
 |**item_parity**|Returns **odd** or **even**  depending on the current counter parity|
