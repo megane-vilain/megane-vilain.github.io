@@ -62,7 +62,7 @@ public class HelloTag extends SimpleTagSupport {
 }
 ```
 
-**Tld***
+**Tld**
 ```
 <taglib>
    <tlib-version>1.0</tlib-version>
