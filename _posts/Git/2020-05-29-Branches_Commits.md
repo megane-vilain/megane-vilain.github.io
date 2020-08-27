@@ -34,6 +34,7 @@ Modifier les fichiers du commit :
 |---|---|
 |`git branch`|Liste toutes les branches locales et indique la branche actuelle|
 |`git branch -a`|Liste toutes les branches locales et en amont|
+|`git branch -r`|Liste toutes les branches en amont|
 |`git branch -v`|Liste toutes les branches et affiche le dernier commit|
 |`git branch -vv`|Liste toutes les branches et affiche la branche en amont|
 
