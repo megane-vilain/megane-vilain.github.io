@@ -177,7 +177,7 @@ public class HelloTag extends SimpleTagSupport {
 |---|---|---|
 |**name**|The name element defines the name of an attribute. Each attribute name must be unique for a particular tag.|Yes|
 |**required**|This specifies if this attribute is required or is an optional one. It would be false for optional.|No|
-|**rtexprvalue**|Declares if a runtime expression value for a tag attribute is valid|No|
+|**rtexprvalue**|Declares if a runtime expression value for a tag attribute is valid (Ex: El values)|No|
 |**type**|Defines the Java class-type of this attribute. By default it is assumed as String|No|
 |**description**|Informational description can be provided.|No|
 |**fragment**|Declares if this attribute value should be treated as a JspFragment.|No|
