@@ -32,6 +32,9 @@ plugins:
 sass:
   sass_dir: _sass
   style: compressed
+  
+minima:
+  skin: solarized-dark
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
