@@ -11,7 +11,7 @@ JSP tag extensions lets you create new tags that you can insert directly into a 
 
 To create a custom JSP tag, you must first create a Java class that acts as a tag handler.
 
-```
+```java
 public class HelloTag extends SimpleTagSupport {
    public void doTag() throws JspException, IOException {
       JspWriter out = getJspContext().getOut();
@@ -25,7 +25,7 @@ public class HelloTag extends SimpleTagSupport {
 If you want to redistribute your tag files or implement your custom tags with tag handlers written in Java, you must declare the tags in a tag library descriptor (TLD). A tag library descriptor is an XML document that contains information about a library as a whole and about each tag contained in the library. TLDs are used by a web container to validate the tags and by JSP page development tools.
 
 **Tld**
-```
+```xml
 <taglib>
    <tlib-version>1.0</tlib-version>
    <jsp-version>2.0</jsp-version>
@@ -43,14 +43,14 @@ If you want to redistribute your tag files or implement your custom tags with ta
 
 You can include a message in the body of the tag as you have seen with standard tags. Consider you want to define a custom tag named <ex:Hello> and you want to use it in the following fashion with a body
 
-```
+```jsp
 <ex:Hello>
    This is message body
 </ex:Hello>
 ```
 
 **Java class**
-```
+```java
 public class HelloTag extends SimpleTagSupport {
    StringWriter sw = new StringWriter();
    public void doTag()
@@ -63,7 +63,7 @@ public class HelloTag extends SimpleTagSupport {
 ```
 
 **Tld**
-```
+```xml
 <taglib>
    <tlib-version>1.0</tlib-version>
    <jsp-version>2.0</jsp-version>
@@ -78,7 +78,7 @@ public class HelloTag extends SimpleTagSupport {
 ```
 
 **JSP**
-```
+```jsp
 <%@ taglib prefix = "ex" uri = "WEB-INF/custom.tld"%>
 
 <html>
@@ -107,7 +107,7 @@ You can use various attributes along with your custom tags. To accept an attribu
 ### Example
 
 **Java class**
-```
+```java
 public class HelloTag extends SimpleTagSupport {
    private String message;
 
@@ -132,7 +132,7 @@ public class HelloTag extends SimpleTagSupport {
 ```
 
 **Tld**
-```
+```xml
 <taglib>
    <tlib-version>1.0</tlib-version>
    <jsp-version>2.0</jsp-version>
@@ -184,7 +184,7 @@ public class HelloTag extends SimpleTagSupport {
 
 
 **JSP**
-```
+```jsp
 <%@ taglib prefix = "ex" uri = "WEB-INF/custom.tld"%>
 
 <html>
