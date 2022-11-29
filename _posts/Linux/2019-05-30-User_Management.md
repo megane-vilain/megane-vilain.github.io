@@ -6,7 +6,7 @@ category: Linux
 ---
 
 ## Group management
-### Create a groupe
+### Create a group
 ```
 groupadd groupeName
 ```
