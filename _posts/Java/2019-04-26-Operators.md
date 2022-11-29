@@ -35,7 +35,7 @@ category:  Java
 
 ### Opérateurs ternaires
 
-```
+```java
 Condition ? if : else
 myGrade = 5
 myBooleanValue = myGrade >=10 ? true : false
