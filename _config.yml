@@ -34,7 +34,7 @@ sass:
   style: compressed
   
 minima:
-  skin: solarized-dark
+  skin: solarized
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
