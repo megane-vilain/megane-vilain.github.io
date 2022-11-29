@@ -24,7 +24,7 @@ Comments are similar to HTML comments, but they are delimited by **<#--** and **
 
 ### If Else
 
-```
+```ftl
 <#if animals.python.price < animals.elephant.price>
   Pythons are cheaper than elephants today.
 <#elseif animals.elephant.price < animals.python.price>
@@ -39,7 +39,7 @@ Comments are similar to HTML comments, but they are delimited by **<#--** and **
 The generic form of the list directive is: <#list sequence as loopVariable>repeatThis</#list>. The repeatThis part will be repeated for each item in the sequence that you have specified with sequence, one after the other, starting from the first item. In all repetitions loopVariable will hold the value of the current item. This variable exists only between the <#list ...> and </#list> tags.
 
 
-```
+```ftl
 <ul>
 <#list misc.fruits as fruit>
   <li>${fruit}
@@ -49,7 +49,7 @@ The generic form of the list directive is: <#list sequence as loopVariable>repea
 
 A problem with the above example is that if we happen to have 0 fruits, it will still print an empty **< ul ></>** instead of just nothing.
 
-```
+```ftl
 <#list misc.fruits>
   <ul>
     <#items as fruit>
@@ -63,7 +63,7 @@ A problem with the above example is that if we happen to have 0 fruits, it will 
 
 The section covered by sep will be only executed when there will be a next item. Hence there's no comma after the last fruit.
 
-```
+```ftl
 <p>Fruits: <#list misc.fruits as fruit>${fruit}<#sep>, </#list>
 ```
 
@@ -71,7 +71,7 @@ The section covered by sep will be only executed when there will be a next item.
 
 A list, just like an if, can have an else, which is executed if there were 0 list items
 
-```
+```ftl
 <p>Fruits: <#list misc.fruits as fruit>${fruit}<#sep>, <#else>None</#list>
 ```
 
@@ -79,7 +79,7 @@ A list, just like an if, can have an else, which is executed if there were 0 lis
 
 With the include directive you can insert the content of another file into the template
 
-```
+```ftl
 <#include "/copyright_footer.html">
 ```
 
@@ -117,13 +117,13 @@ The so-called built-ins are like methods  that aren't coming from the data-model
 
 Wherever you refer to a variable, you can specify a default value for the case the variable is missing by following the variable name with a ! and the default value
 
-```
+```ftl
 <h1>Welcome ${user!"visitor"}!</h1>
 ```
 
 You can ask whether a variable isn't missing by putting ?? after its name
 
-```
+```ftl
 <#if user??><h1>Welcome ${user}!</h1></#if>
 ```
 
