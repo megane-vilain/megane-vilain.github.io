@@ -10,10 +10,15 @@
     flex-direction: column;
     flex-wrap: wrap;
 
-    h2 {
+    .post-list-heading {
         margin-bottom: 0px;
         margin-top: 10px;
         font-weight:bold;
+    }
+  
+    hr {
+        margin-top: 0;
+        margin-bottom: 15px;
     }
 }
 .post-list-heading {
@@ -22,11 +27,6 @@
     background-repeat: no-repeat;
     box-sizing: inherit;
     font-family: -apple-system,BlinkMacSystemFont,segoe ui,roboto,oxygen,ubuntu,cantarell,fira sans,droid sans,helvetica neue,sans-serif;
-  
-    hr {
-      margin-top: 0;
-      margin-bottom: 15px;
-    }
 }
 
 .category-posts {
