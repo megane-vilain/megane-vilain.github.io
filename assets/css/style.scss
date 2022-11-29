@@ -22,6 +22,11 @@
     background-repeat: no-repeat;
     box-sizing: inherit;
     font-family: -apple-system,BlinkMacSystemFont,segoe ui,roboto,oxygen,ubuntu,cantarell,fira sans,droid sans,helvetica neue,sans-serif;
+  
+    hr {
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
 }
 
 .category-posts {
