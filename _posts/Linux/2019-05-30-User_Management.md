@@ -13,13 +13,20 @@ Users may be grouped together into a "group", and users may be added to an exist
 
 ## Group management
 
-|Command|Meaning|
+### View informations 
+
+|Info|Command|
 |---|---|
-|cat /etc/group| List all groups
-|groupadd groupName|Create a group|
-|gropdel groupName|Delete a group\
-|groups username| List the groups an user account is assigned to |
-|usermod -aG **additional_groups**  username| Add an user to a group.   If the -a option is omitted in the usermod command above, the user is removed from all groups not listed in additional_groups|
-|usermod -g groupname username|While a user account can be part of multiple groups, one of the groups is always the “primary group” and the others are “secondary groups”. The user’s login process and files and folders the user creates will be assigned to the primary group.|
+ List all groups| cat /etc/group|
+ List the groups an user account is assigned to |groups **username**|
+
+### Edit groups
+
+|Ifno|Command|
+|---|---|
+|Create a group|groupadd **groupName**|
+|Delete a group|groupdel **groupName**|
+|Add an user to a group.   If the -a option is omitted in the usermod command above, the user is removed from all groups not listed in additional_groups|usermod -aG **additional_groups**  **username**|
+|While a ser account can be part of multiple groups, one of the groups is always the “primary group” and the others are “secondary groups”. The user’s login process and files and folders the user creates will be assigned to the primary group.|usermod -g **groupname** **username**|
 
 
