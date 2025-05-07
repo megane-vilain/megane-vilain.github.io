@@ -16,7 +16,7 @@ layout: base
         <hr>
         {%- if category[1].size > 0-%}
         <div class="category-posts">
-            {% for post in category[1] %}
+            {% for post in category[1] reversed %}
             
               <a class="post-slug" href="{{ post.url | relative_url }}" >
                 <span class="dot"></span>
