@@ -57,7 +57,7 @@ edition = "2024"
 ### Check the code to make sure it compiles
 
 ```
-chargo check 
+cargo check 
 ```
 
 ### Build the projet
