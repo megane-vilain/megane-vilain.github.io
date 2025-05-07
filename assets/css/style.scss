@@ -55,3 +55,9 @@
 .body {
     background-color: rgb(215, 220, 224);
 }
+
+.archive-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
