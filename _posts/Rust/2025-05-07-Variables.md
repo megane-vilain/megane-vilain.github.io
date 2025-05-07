@@ -5,6 +5,8 @@ author: Mégane Vilain
 category: Rust
 ---
 
+### Types
+
 
 In rust, variables are immutable by default.
 
