@@ -41,8 +41,7 @@ minima:
   skin: solarized-light
 
 jekyll-archives:
-  enabled: 
-    - categories
+  enabled: all
   layouts:
     category: category-archive
   permalinks:
@@ -50,7 +49,7 @@ jekyll-archives:
     month: '/:year/:month/'
     day: '/:year/:month/:day/'
     tag: '/tag/:name/'
-    category: '/category/:name/'
+    category: '/archives/category/:name/'
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
