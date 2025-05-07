@@ -7,6 +7,7 @@ category: Rust
 
 ### Types
 
+#### Integer Types
 
 In rust, variables are immutable by default.
 
