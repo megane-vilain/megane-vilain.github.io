@@ -43,7 +43,8 @@ minima:
 jekyll-archives:
   enabled: 
     - categories
-  layout: archive
+  layouts:
+    category: category-archive
   permalinks:
     year: '/:year/'
     month: '/:year/:month/'
