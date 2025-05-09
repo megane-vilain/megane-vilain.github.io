@@ -40,7 +40,8 @@ minima:
   skin: solarized-light
 
 jekyll-archives:
-  enabled: all
+  enabled:
+    - categories
   layouts:
     category: category
   permalinks:
