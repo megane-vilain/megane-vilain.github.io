@@ -1,0 +1,43 @@
+---
+layout: post
+title : SSH
+author: Mégane Vilain
+category: Linux
+---
+
+SSH (Secure Shell) is used for managing networks, operation systems, and congigurations.
+SSH keys ressemble passwords, they grant access and control who can access what. Technically the keys are cryptographic keys using a public key cryptosystem. However, functionally they are authentication credentials and need to be managed as such.
+
+Authorized keys are public keys that grant access. They are analogous to locks that the corresponding private key can open.
+
+## Generating a key
+
+```sh
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+
+If invoked without any arguments, ssh-keygen will generate an RSA key.
+
+
+|Argumant|Info |
+|---|---|
+|-t | Type of key to create (dsa, ecdsa, ecdsa-sk, ed25519, ed25519-sk, rsa|
+|-C | Comment |
+|-N | Passphrase |
+|-f | Specifies the filename of the key file|
+
+
+This command will generate two files, a private and a public key. 
+In order to connect to a system, you need to add your public key to the **authorized_keys** file  on the system. Private keys should never be shared with anyone.
+Example of authorized_keys file                                  
+
+```
+# Comments allowed at start of line
+ssh-rsa AAAAB3Nza...LiPk== user@example.net 
+from="*.sales.example.net,!pc.sales.example.net" ssh-rsa AAAAB2...19Q== john@example.net
+command="dump /home",no-pty,no-port-forwarding ssh-dss AAAAC3...51R== example.net
+permitopen="192.0.2.1:80",permitopen="192.0.2.2:25" ssh-dss AAAAB5...21S==
+ssh-rsa AAAA...==jane@example.net
+zos-key-ring-label="KeyRingOwner/SSHAuthKeysRing uniq-ssh-rsa"
+from="*.example.com",zos-key-ring-label="KeyRingOwner/SSHAuthKeysRing uniq-ssh-dsa"
+```                            
