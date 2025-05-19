@@ -16,6 +16,7 @@ category: Other
 |Code|Meaning|
 |---|---|
 200 - OK|Everything is working as expected 
+|204 - No Content|The server successfully processed the request, and is not returning any content
 
 ## 3XX Redirection messages
 
