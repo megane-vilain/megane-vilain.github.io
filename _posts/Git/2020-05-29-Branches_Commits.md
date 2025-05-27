@@ -17,6 +17,7 @@ category: Git
 |`git reset HEAD "file_name"`|Enlève un fichier du futur commit|
 |`git checkout -- "file_name"`|Supprime les modifications apportées à un fichier|
 |`git commit -m "message"`|Effectue un commit en local|
+|`git reset --hard HEAD~1`|Supprime les commits local non publiés|
 |`git push`|Envoie en amont les commits effectués|
 
 ### Modifier un commit **local**
