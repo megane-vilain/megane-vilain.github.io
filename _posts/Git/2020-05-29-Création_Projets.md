@@ -9,7 +9,8 @@ category: Git
 
 |Commande  | Description |
 |---|---|
-|`git init`|Initialise un répertoire vide|
+|`git init`|Transform the current directory into a Git repository. |
+|`git init "folder_name"`|Create an empty Git repository in the specified directory. Running this command will create a new subdirectory called ＜directory＞ containing nothing but the .git subdirectory. |
 |`git clone "project_url"`|Crée une version locale d'un projet déjà existant|
 
 ### Lier le projet local à la remote
