@@ -1,6 +1,6 @@
 ---
 layout: post
-title : Packaging
+title : Package management
 author: Mégane Vilain
 category: Linux
 ---
