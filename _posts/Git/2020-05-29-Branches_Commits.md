@@ -29,6 +29,8 @@ Modifier le message du commit - `git commit --amend -m "an updated commit messag
 Modifier les fichiers du commit : 
 * Effectuer les modifications (modifier, ajouter ou supprimer un des fichier du commit)   
 * `git commit --amend --no-edit` (le flag --no-edit indique qu'il ne faut pas modifier le message du commit original
+
+
 ### Infos sur les branches 
 
 |Commande  | Description |
@@ -86,3 +88,16 @@ Récupère les modifications effectués en amont et tente de les fusioner avec l
 |---|---|
 |`git pull "remote_name"`|Récupère et merge les modifications de la branche|
 |`git pull "remote_name" --rebase`|Récupère et rebase les modifications de la branche|
+
+
+### Clean local
+
+***git clean*** - Cleans the working tree by recursively removing files that are not under version control, starting from the current directory
+
+
+|Options  | Description |
+|---|---|
+|-d |Specify -d to have it recurse into untracked directories as well. |
+|-f, --force|If the Git configuration variable clean.requireForce is not set to false, git clean will refuse to delete files or directories unless given -f |
+|-i, --interacive|
+|-n, --dry-run| Show what files will be deleted|
