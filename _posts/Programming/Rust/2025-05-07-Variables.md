@@ -2,7 +2,8 @@
 layout: post
 title : Variables and mutability 
 author: Mégane Vilain
-category: Rust
+category:  Programming
+subcategory: Rust
 ---
 
 ### Types
