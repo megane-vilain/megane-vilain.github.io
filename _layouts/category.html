@@ -24,7 +24,7 @@ layout: base
   {% endfor %}
 
   {% for subcat in subcategories %}
-    <div class="subcat-column">
+    <div>
       <h2>{{ subcat }}</h2>
       {% for post in page.posts reversed %}
         {% if post.subcategory == subcat %}
