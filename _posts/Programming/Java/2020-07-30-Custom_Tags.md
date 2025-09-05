@@ -3,7 +3,7 @@ layout: post
 title : JSP - Custom Tags
 author: Mégane Vilain
 category:  Programming
-subcategory: JSP
+subcategory: Java
 ---
 
 ## Definition
