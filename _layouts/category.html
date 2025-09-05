@@ -5,11 +5,32 @@ layout: base
 <h1>{{ page.title }}</h1>
 <div class="archive-box">
   {% for post in page.posts reversed %}
-    <a class="post-slug" href="{{ post.url | relative_url }}" >
-      <span class="dot"></span>
-      <span>
-        {{ post.title | escape }} {{post.subcategory}}
-      </span>        
-    </a>
+    {% is post.subcategory == nil or post.subcategory == ""}
+      <a class="post-slug" href="{{ post.url | relative_url }}" >
+        <span class="dot"></span>
+        <span>{{ post.title | escape }}</span>
+      </a>
+    {%endif}
+  {% endfor %}
+
+  {% assign subcategories = "" | split: "" %}
+  {% for post in page.posts %}
+    {% if post.subcategory and post.subcategory != "" %}
+      {% unless subcategories contains post.subcategory %}
+        {% assign subcategories = subcategories | push: post.subcategory %}
+      {% endunless %}
+    {% endif %}
+  {% endfor %}
+
+  {% for subcat in subcategories %}
+    <h2>{{ subcat }}</h2>
+    {% for post in page.posts %}
+      {% if post.subcategory == subcat %}
+        <a class="post-slug" href="{{ post.url | relative_url }}" >
+          <span class="dot"></span>
+          <span>{{ post.title | escape }}</span>
+        </a>
+      {% endif %}
+    {% endfor %}
   {% endfor %}
 </div>
