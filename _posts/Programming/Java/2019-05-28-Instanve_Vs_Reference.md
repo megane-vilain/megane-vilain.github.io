@@ -2,7 +2,8 @@
 layout:  post
 title:   Instance VS Reference
 author:  Mégane Vilain
-category:  Java
+category:  Programming
+subcategory: Java
 ---
 
 ## Instance
