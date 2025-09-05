@@ -2,7 +2,8 @@
 layout:  post
 title:   Types primitifs
 author:  Mégane Vilain
-category:  Java
+category:  Programming
+subcategory: Java
 ---
 
 ## Nombres entiers

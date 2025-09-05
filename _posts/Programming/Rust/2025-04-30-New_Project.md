@@ -2,7 +2,8 @@
 layout: post
 title : Creation and running 
 author: Mégane Vilain
-category: Rust
+category:  Programming
+subcategory: Rust
 ---
 
 ## Compile a rust file with rustc

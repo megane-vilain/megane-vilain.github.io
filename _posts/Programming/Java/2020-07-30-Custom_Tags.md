@@ -1,8 +1,9 @@
 ---
 layout: post
-title : Custom Tags
+title : JSP - Custom Tags
 author: Mégane Vilain
-category: JSP
+category:  Programming
+subcategory: Java
 ---
 
 ## Definition

@@ -1,8 +1,9 @@
 ---
 layout: post
-title : FreeMarker
+title : JSP - FreeMarker
 author: Mégane Vilain
-category: JSP
+category:  Programming
+subcategory: Java
 ---
 
 ## Definition
