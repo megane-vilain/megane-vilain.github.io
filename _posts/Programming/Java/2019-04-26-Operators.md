@@ -2,7 +2,8 @@
 layout:  post
 title:   Opérateurs
 author:  Mégane Vilain
-category:  Java
+category:  Programming
+subcategory: Java
 ---
 
 ### Opérateurs de calcul
