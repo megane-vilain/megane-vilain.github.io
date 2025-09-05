@@ -5,20 +5,59 @@ author: Mégane Vilain
 category: Linux
 ---
 
-## Files 
+# Files 
 
-### Ls 
+## Ls 
 List files and directories within the file system 
+
+Output of the ls command
+```sh
+-rw-r--r-- 1 root root 337 Oct  4 11:31 /etc/hosts
+```
+First character shows the file type.
+|Sign|Description|
+|---|---|
+| - | Regular file.
+| b | Block special file.
+| c | Character special file.
+| d | Directory.
+| l | Symbolic link.
+| n | Network file.
+| p | FIFO.
+| s | Socket.
+
+Next nine characters shows the file permissions 
+|Sign|Description|
+|---|---|
+|r | Permission to read the file.
+|w | Permission to write to the file.
+|x | Permission to execute the file.
+|s | setgid bit.
+|t | sticky bit.
+
+### Options
 
 |Option|Description|
 |---|---|
-|***-l***| Print files in a vertical listing format -
- |***-a***|Show hidden files|
- |***-R***| Display the contents of the subdirectories recursively|
+|***-l***| Print files in a vertical listing format (With more information) -
+|***-a***|Show hidden files|
+|***-R***| Display the contents of the subdirectories recursively|
+|**--block-size=*G*|Show sizes of files in G|
+|**s**|Print the allocated size of each file, in blocks|
+|**h**|In combination of -s or -l, print sizes like 1K 2G etc...|
+|**i**|Print the index number of each file|
 
-## Disks 
+#### Sort the output
+|||
+|---|---|
+| --sort=extension (or -X ) | sort alphabetically by extension.
+| --sort=size (or -S) | sort by file size.
+| --sort=time ( or -t) | sort by modification time.
+| --sort=version (or -v) | Natural sort of version numbers.
 
-### lsblk
+# Disks 
+
+## lsblk
 
 List all disks with their partitions and mount points
 ```bash
