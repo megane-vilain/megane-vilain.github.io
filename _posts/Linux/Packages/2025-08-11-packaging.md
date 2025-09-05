@@ -3,6 +3,7 @@ layout: post
 title : Package management
 author: Mégane Vilain
 category: Linux
+subcategory: Packages
 ---
 
 ## Snaps 
