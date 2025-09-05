@@ -8,7 +8,7 @@ layout: base
     <a class="post-slug" href="{{ post.url | relative_url }}" >
       <span class="dot"></span>
       <span>
-        {{ post.title | escape }}
+        {{ post.title | escape }} {{post.subcategory}}
       </span>        
     </a>
   {% endfor %}
