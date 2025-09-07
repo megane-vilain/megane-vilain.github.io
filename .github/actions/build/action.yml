@@ -1,11 +1,11 @@
 name: "Build Jekyll"
 description: "Sets up Ruby and builds the site with Jekyll"
-inputs:
-    baseurl:
-    description: 'Base url for jekyll'
-    default: ''
 runs:
   using: "composite"
+  inputs:
+    baseurl:
+      description: "Base URL for Jekyll"
+      default: ""
   steps:
     - uses: ruby/setup-ruby@v1
       with:
