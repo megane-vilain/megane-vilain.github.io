@@ -7,7 +7,6 @@ runs:
       description: 'Base url for jekyll'
       default: ''
   steps:
-    - uses: actions/checkout@v4
     - uses: ruby/setup-ruby@v1
       with:
         ruby-version: '3.1'
