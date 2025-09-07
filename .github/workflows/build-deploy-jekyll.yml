@@ -40,8 +40,8 @@ jobs:
         uses: ./.github/actions/build
         env:
           JEKYLL_BASEURL: "${{ steps.pages.outputs.base_path }}"
-      - name: Upload artefact
-        uses: ./.github/actions/upload
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
 
   # Deployment job
   deploy:
