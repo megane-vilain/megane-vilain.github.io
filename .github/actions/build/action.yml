@@ -1,5 +1,9 @@
 name: "Build Jekyll"
 description: "Sets up Ruby and builds the site with Jekyll"
+inputs:
+    baseurl:
+    description: 'Base url for jekyll'
+    default: ''
 runs:
   using: "composite"
   steps:
@@ -11,8 +15,4 @@ runs:
       run: bundle exec jekyll build --baseurl "${{ inputs.baseurl }}"
       shell: bash
       env:
-        JEKYLL_ENV: production
-  inputs:
-    baseurl:
-      description: 'Base url for jekyll'
-      default: ''
+        JEKYLL_ENV: production 
