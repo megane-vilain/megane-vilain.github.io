@@ -38,7 +38,7 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Build Jekyll
         uses: ./.github/actions/build
-        with:
-          baseurl: "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_BASEURL: "${{ steps.pages.outputs.base_path }}"
       - name: Deploy Jekyll
         uses: ./.github/actions/deploy
