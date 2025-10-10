@@ -75,3 +75,14 @@
     flex-direction: column;
     gap: 0.5rem;
 }
+
+pre[title]::before {
+  content: attr(title);
+  display: block;
+  font-weight: bold;
+  background: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+  padding: 4px 8px;
+  font-family: monospace;
+}
+
