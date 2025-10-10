@@ -81,13 +81,14 @@ div.highlighter-rouge[title]::before {
   display: block;
   font-weight: bold;
   background: lighten($background-color, 5%);
-  border-bottom: 1px solid $border-color;
+  border-bottom: 1px solid lighten($text-color, 50%);
   color: $text-color;
   padding: 4px 8px;
   font-family: monospace;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
 }
+
 
 
 div.highlighter-rouge pre {
