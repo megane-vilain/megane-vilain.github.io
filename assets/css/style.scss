@@ -80,13 +80,15 @@ div.highlighter-rouge[title]::before {
   content: attr(title);
   display: block;
   font-weight: bold;
-  background: #f8f8f8;
-  border-bottom: 1px solid #ddd;
+  background: lighten($background-color, 5%);
+  border-bottom: 1px solid $border-color;
+  color: $text-color;
   padding: 4px 8px;
   font-family: monospace;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
 }
+
 
 div.highlighter-rouge pre {
   margin-top: 0;
