@@ -1,7 +1,7 @@
 ---
 layout: post
-title : Debian Packaging
+title : Debian
 author: Mégane Vilain
 category: Linux
-subcategory: Packages
+subcategory: Packaging
 ---
