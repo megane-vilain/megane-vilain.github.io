@@ -12,7 +12,9 @@ layout: base
   {%- if site.categories.size > 0 -%}
     {%- for category in site.categories -%}
       
-        <h2 class="post-list-heading">{{ category[0] }}</h2>
+        <h2 class="post-list-heading">
+          <a href="{{ site.url }}/archives/category/{{ category[0] }}/">{{ category[0] }}</a>
+        </h2>
         <hr>
         {%- if category[1].size > 0-%}
         <div class="category-posts">
@@ -35,3 +37,4 @@ layout: base
   {%- endif -%}
 
 </div>
+
