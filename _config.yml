@@ -37,7 +37,7 @@ sass:
   style: compressed
   
 minima:
-  skin: solarized-light
+  skin: dark
 
 jekyll-archives:
   enabled:
@@ -62,3 +62,4 @@ jekyll-archives:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
