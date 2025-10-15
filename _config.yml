@@ -25,6 +25,7 @@ include: ['_pages']
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 
 plugins:
   - jekyll-remote-theme
@@ -62,4 +63,5 @@ jekyll-archives:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
 
