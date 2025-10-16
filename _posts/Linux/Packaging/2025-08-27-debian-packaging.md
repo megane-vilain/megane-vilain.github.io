@@ -25,7 +25,7 @@ dput	[-DPUVdflosu] [-c CONFIGFILE] [-e DAYS] [HOSTNAME] CHANGESFILE
 |-o --check-only|Don't upload, only performs the check.|
 
 
-##### Confiration dput.cf
+##### Configuration dput.cf
 
 **dput.cf** consists of different groups of configuration options, one for each host where you want to be able to upload packages. Hosts are defined using an identifier header with a short name for the host, enclosed in square brackets.
 
