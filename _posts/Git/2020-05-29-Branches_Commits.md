@@ -31,15 +31,26 @@ Modifier les fichiers du commit :
 * `git commit --amend --no-edit` (le flag --no-edit indique qu'il ne faut pas modifier le message du commit original
 
 
+### Supprimer un commit local
+
+```bash
+git reset --soft HEAD~1 # Supprime le dernier commit en gardant les modifications du commit 
+```
+
+```bash
+git reset --hard HEAD~1 # Supprime le dernier commit en supprime les modifications
+```
+
 ### Infos sur les branches 
 
-|Commande  | Description |
+***git branch*** - Liste toutes les branches disponible localement et indique la branche actuelle
+
+|Options  | Description |
 |---|---|
-|`git branch`|Liste toutes les branches locales et indique la branche actuelle|
-|`git branch -a`|Liste toutes les branches locales et en amont|
-|`git branch -r`|Liste toutes les branches en amont|
-|`git branch -v`|Liste toutes les branches et affiche le dernier commit|
-|`git branch -vv`|Liste toutes les branches et affiche la branche en amont|
+|`-a`|Liste toutes les branches locales et en amont|
+|`-r`|Liste toutes les branches en amont|
+|`-v`|Liste toutes les branches et affiche le dernier commit|
+|`-vv`|Liste toutes les branches et affiche la branche en amont|
 
 
 ### Manipulation de branches
