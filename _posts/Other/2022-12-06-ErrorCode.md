@@ -30,7 +30,8 @@ category: Other
 |Code|Meaning|
 |---|---|
 |401 - Unauthorized|Indicates that a request was not successful because it lacks valid authentication credentials
-404 - Not Found| Server couldn't find the requested ressource
+|403 - Forbidden | Indicates that the server understood the request but refused to process it.Iinsufficient permissions
+|404 - Not Found| Server couldn't find the requested ressource
 
 ## 5XX Server error responses
 
