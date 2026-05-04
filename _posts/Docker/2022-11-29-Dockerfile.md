@@ -15,14 +15,14 @@ Docker can build images automatically by reading the instructions from a Dockerf
 
 The FROM instruction initializes a new build stage and sets the Base Image for subsequent instructions. As such, a valid Dockerfile must start with a FROM instruction. 
 
-```
+```bash 
 FROM [--platform=<platform>] <image> [AS <name>]
 ```
 
 ### ENV
 Sets the environment variable <key> to the value <value>. This value will be in the environment for all subsequent instructions in the build stage and can be replaced inline in many as well. The value will be interpreted for other environment variables, so quote characters will be removed if they are not escaped. Like command line parsing, quotes and backslashes can be used to include spaces within values.
 
-```
+```bash 
 ENV abc=hello
 ```
 
@@ -30,7 +30,7 @@ ENV abc=hello
 Provides values for the image building process.
 FROM instructions support variables that are declared by any ARG instructions that occur before the first FROM.
 
-```
+```dokerfile 
 ARG  CODE_VERSION=latest
 FROM base:${CODE_VERSION}
 CMD  /code/run-app
@@ -41,7 +41,7 @@ CMD  /code/run-extras
 
 An ARG declared before a FROM is outside of a build stage, so it can’t be used in any instruction after a FROM. To use the default value of an ARG declared before the first FROM use an ARG instruction without a value inside of a build stage:
 
-```
+```dokerfile 
 ARG VERSION=latest
 FROM busybox:$VERSION
 ARG VERSION
@@ -64,14 +64,15 @@ Docker has a set of predefined ARG variables that you can use without a correspo
 - all_proxy
 
 To use these, pass them on the command line using the --build-arg flag, for example:
-```
+
+```bash
  docker build --build-arg HTTPS_PROXY=https://my-proxy.example.com .
 ```
 
 ### RUN 
 The RUN instruction will execute any commands in a new layer on top of the current image and commit the results. The resulting committed image will be used for the next step in the Dockerfile.
 
-```
+```dokerfile
 RUN echo $VERSION > image_version
 ```
 
@@ -79,7 +80,7 @@ RUN echo $VERSION > image_version
 The main purpose of a CMD is to provide defaults for an executing container. 
 There can only be one CMD instruction in a Dockerfile. If you list more than one CMD then only the last CMD will take effect.
 
-```
+```dokerfile
 CMD ["executable","param1","param2"]
 CMD echo "This is a test." | wc -
 ```
@@ -90,11 +91,11 @@ The EXPOSE instruction informs Docker that the container listens on the specifie
 The EXPOSE instruction does not actually publish the port. It functions as a type of documentation between the person who builds the image and the person who runs the container, about which ports are intended to be published. 
 
 By default, EXPOSE assumes TCP. You can also specify UDP:
-```
+```dokerfile
 EXPOSE 80/udp
 ```
 To expose on both TCP and UDP, include two lines:
-```
+```dokerfile
 EXPOSE 80/tcp
 EXPOSE 80/udp
 ```
@@ -102,7 +103,7 @@ EXPOSE 80/udp
 ### HEALTHCHECK
   
 The HEALTHCHECK instruction has two forms:
-``` 
+``` dokerfile
 HEALTHCHECK [OPTIONS] CMD command (check container health by running a command inside the container)
 HEALTHCHECK NONE (disable any healthcheck inherited from the base image)
 ```
@@ -126,7 +127,7 @@ The command’s exit status indicates the health status of the container. The po
  The USER instruction sets the user name (or UID) and optionally the user group (or GID) to use as the default user and group for the remainder of the current stage. 
  The user needs to be created beforehand
   
-```
+```dokerfile
 USER <user>[:<group>]
 
 or
@@ -140,14 +141,15 @@ USER <UID>[:<GID>]
 The WORKDIR instruction sets the working directory for any RUN, CMD, ENTRYPOINT, COPY and ADD instructions that follow it in the Dockerfile. If the WORKDIR doesn’t exist, it will be created even if it’s not used in any subsequent Dockerfile instruction.
 The WORKDIR instruction can be used multiple times in a Dockerfile. If a relative path is provided, it will be relative to the path of the previous WORKDIR instruction.
   
-```
+```dokerfile
 WORKDIR /path/to/workdir
 ```
   
 ### VOLUME
 The VOLUME instruction creates a mount point with the specified name and marks it as holding externally mounted volumes from native host or other containers. The value can be a JSON array, VOLUME ["/var/log/"], or a plain string with multiple arguments, such as VOLUME /var/log or VOLUME /var/log /var/db.
 The docker run command initializes the newly created volume with any data that exists at the specified location within the base image. 
-```
+
+```dokerfile
 FROM ubuntu
 RUN mkdir /myvol
 RUN echo "hello world" > /myvol/greeting
@@ -158,7 +160,7 @@ VOLUME /myvol
   
 ADD has two forms:
 
-```
+```dokerfile
 ADD [--chown=<user>:<group>] [--checksum=<checksum>] <src>... <dest>
 ADD [--chown=<user>:<group>] ["<src>",... "<dest>"]
 ```
