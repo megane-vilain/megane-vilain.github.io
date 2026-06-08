@@ -6,6 +6,15 @@ category: Linux
 subcategory: Packaging
 ---
 
+### dpkg
+
+
+```bash
+# List files inside deb archive
+dpkg -c package_file.deb
+dpkg --contents package_file.deb
+```
+
 ### dput
 
 Upload, to the Debian package upload queue, the files constituting the package specified in each CHANGESFILE. <br>
